@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Blur Test</title>
+			
+			<style>
+				body {
+					background: url(beach.jpg) top center no-repeat fixed;
+					background-size: 100%;
+					font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+					color: #343931;
+				}
+				
+				h2 {
+					font-size: 175%;
+					color: #F5F7F2;
+					text-shadow: 0 1px 1px #343931;
+					text-transform: uppercase;
+				}
+				
+				p {
+					text-shadow: 0 1px rgba(255,255,255,.5);
+				}
+				
+				#scroll {
+					background: url(beach-blur.jpg) top center no-repeat fixed;
+					background-size: 100%;
+					width: 20%;
+					margin: 100px 0 100px 10%;
+					float: left;
+					border-top: 1px solid rgba(255,255,255,.5);
+					box-shadow: 0 1px 1px rgba(0,0,0,.4), inset 0 0 10px rgba(255,255,255,.5);
+					border-radius: 5px;
+					text-align: center;
+				}
+				
+				#content {
+					float: left;
+					width: 60%;
+					margin: 100px 0 100px 10%;
+					height: 900px;
+				}
+				
+				.content {
+					padding: 1em;
+				}
+				
+				#footer {
+					background: url(beach-blur.jpg) top center no-repeat fixed;
+					background-size: 100%;
+					border-top: 1px solid rgba(255,255,255,.5);
+					box-shadow: 0 1px 1px rgba(0,0,0,.4), inset 0 0 10px rgba(255,255,255,.5);
+					border-radius: 5px;
+					width: 80%;
+					margin-left: 10%;
+					margin-bottom: 50px;
+					clear: both;
+				}
+			</style>
+	</head>
+	<body>
+		<div id="scroll">
+			<div class="content">
+				<p>scroll div</p>
+				<p>with links</p>
+				<p>or whatever</p>
+				<p>don't ask me</p>
+				<p>i don't work here</p>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="content">
+				<h2>Content, yo</h2>
+				<p>So totally content.</p>
+				<p>What would you do without all this content?</p>
+				<p>I dunno. Buy a boat?</p>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="content">
+				<p>Footer.</p>
+			</div>
+		</div>
+	</body>
+</html>
